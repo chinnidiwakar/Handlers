@@ -1,6 +1,5 @@
 IP=$(hostname -I)
-echo "Enter Your LPORT Number: "
-read PORT
+read -p "Enter Your LPORT Number: " PORT
 echo "IP BEING USED   : $IP"
 echo "PORT BEING USED : $PORT"
 echo "use multi/handler" > /tmp/handler.rc
